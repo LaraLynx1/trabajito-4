@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Crear Post</title>
+		<link rel="stylesheet" href="post.css" />
+	</head>
+	<body>
+		<div class="formulario">
+			<h2>Crear Post</h2>
+			<form id="formularioPost">
+				<input type="file" id="imagenArchivo" accept="image/*" required />
+				<input type="text" id="titulo" placeholder="Título" required />
+				<textarea id="descripcion" rows="4" placeholder="Descripción" required></textarea>
+				<button type="submit">Crear Post</button>
+			</form>
+		</div>
+		<div class="posts-container" id="posts-container">
+			<!-- Aquí se llenarán los posts con JavaScript -->
+		</div>
+		<a href="http://127.0.0.1:3000/" class="boton-regresar">Volver</a>
+		<script src="./post.js"></script>
+	</body>
+</html>

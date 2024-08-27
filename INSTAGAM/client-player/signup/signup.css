@@ -1,0 +1,68 @@
+body {
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	background-color: #ece4ff;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}
+
+.container {
+	text-align: center;
+	background-color: #fff;
+	padding: 40px;
+	border-radius: 10px;
+	box-shadow: 0 4px 15px rgba(128, 0, 128, 0.2);
+	width: 400px;
+}
+
+h1 {
+	font-size: 30px;
+	margin-bottom: 30px;
+	color: #4b0082;
+}
+
+input[type='text'],
+input[type='password'],
+input[type='file'] {
+	width: calc(100% - 20px);
+	padding: 10px;
+	margin: 10px 0;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	font-size: 14px;
+}
+
+input[type='submit'] {
+	background-color: #6a0dad;
+	color: white;
+	border: none;
+	padding: 12px 20px;
+	border-radius: 5px;
+	cursor: pointer;
+	font-size: 16px;
+	transition: background-color 0.3s ease, transform 0.2s ease;
+	width: 100%;
+}
+
+input[type='submit']:hover {
+	background-color: #9932cc;
+	transform: translateY(-2px);
+}
+
+input[type='submit']:active {
+	transform: translateY(1px);
+}
+button {
+	background-color: #6a0dad;
+	color: white;
+	border: none;
+	padding: 12px 20px;
+	margin: 10px;
+	border-radius: 5px;
+	cursor: pointer;
+	font-size: 16px;
+	transition: background-color 0.3s ease, transform 0.2s ease;
+}
